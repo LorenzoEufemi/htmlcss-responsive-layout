@@ -15,11 +15,31 @@
         flex-wrap: wrap;
         column-gap: 50px;
     }
+    .container {
+        width: 900px;
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .icona {
+        padding: 10px 50px;
+        border-radius: 20px;
+    }
+    .icon-section {
+        gap: 30px;
+    }
+    .banner-section {
+        display: flex;
+    }
 }
 
 
 /* LAPTOP */
 @media screen and (min-width: 992px) {
+    .container {
+        width: 1100px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
     .header {
         text-align: left;
         padding-left: 20px;
@@ -36,13 +56,22 @@
     }
     .video {
         width: 70%;
+        height: 100%;
     }
     .inbreve-section {
         width: 30%;
-        padding-right: ;
+        
     }
-    
+    iframe {
+        height: 100%;
+    }
     .inbreve-section ul li {
-        padding: 5px 0;
+        padding: 0 0;
+    }
+    .icona-name {
+        display: flex;
+    }
+    .icon-section {
+        gap: 10px;
     }
 }

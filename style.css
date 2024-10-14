@@ -11,7 +11,7 @@ img {
 
 /* COMMON */
 .container {
-    width: 1100px;
+    width: 600px;
     max-width: 90%;
     margin: 0 auto;
 }
@@ -21,13 +21,16 @@ img {
 .dry {
     font-weight: 300;
 }
+.black {
+    color: black;
+}
 /* HEADER */
 .header {
     height: 80px;
     text-align: center;
     padding-top: 10px;
     /* debug */
-    background-color: lightskyblue;
+  
 }
 .header-title {
     font-family: "Nerko One";
@@ -38,8 +41,9 @@ img {
 main {
     background-color: #F6F5F3;
     /* debug */
-    min-height: 1000px;
+   
 }
+/* title-section */
 .title {
     padding: 20px 0;
 }
@@ -56,9 +60,10 @@ main {
 .maxi-title1 {
     display: none;
 }
+/* inbreve-section */
 iframe {
     width: 100%;
-    aspect-ratio: 2;
+    aspect-ratio: 16 / 9;
 }
 .inbreve-section ul {
     list-style: none;
@@ -76,7 +81,57 @@ iframe {
 .nome {
     padding-bottom: 20px;
 }
-
-
+/* icon-section */
+.icon-section {
+    display: flex;
+    padding: 20px 0;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.icona {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    
+}
+.fb {
+    color: #1A77F3;
+}
+.twi {
+    color: #009EFF;
+}
+.insta {
+    color: #E08096;
+}
+.pint {
+    color:#E62222;
+}
+.yt {
+    color: #E62222;
+}
+.icona-name {
+    display: none;
+}
+/* BANNER SECTION */
+.banner-section {
+    display: none;
+}
+hr {
+    color: #F7972E;
+    width: 100px;
+    
+}
+.title-presentation {
+    padding-bottom: 20px;
+}
+.img-presentation {
+    width: 60%;
+    height: 50%;
+    padding: 20px 0;
+    display: inline-block;
+    text-align: center;
+}
 
 /* FOOTER */
