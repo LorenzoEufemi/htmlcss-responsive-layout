@@ -1,12 +1,48 @@
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-
+    .header {
+        text-align: left;
+        padding-left: 20px;
+    }
+    .maxi-title1 {
+        display:flex;
+        display: inline-block;
+    }
+    .inbreve-section ul {
+        display: flex;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        column-gap: 50px;
+    }
 }
 
 
 /* LAPTOP */
 @media screen and (min-width: 992px) {
+    .header {
+        text-align: left;
+        padding-left: 20px;
+    }
+    .maxi-title1 {
+        display:flex;
+        display: inline-block;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .hero-section {
+        display: flex;
+    }
+    .video {
+        width: 70%;
+    }
+    .inbreve-section {
+        width: 30%;
+        padding-right: ;
+    }
     
-
+    .inbreve-section ul li {
+        padding: 5px 0;
+    }
 }
